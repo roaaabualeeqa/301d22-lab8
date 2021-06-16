@@ -5,6 +5,7 @@ function movieHandler(req, res) {
     let key = process.env.MOVIE_KEY;
 
 
+    
     let movieUrl = `https://api.themoviedb.org/3/search/movie?api_key=${key}&query=${city}`;
 
         axios

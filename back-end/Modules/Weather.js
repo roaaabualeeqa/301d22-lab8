@@ -7,6 +7,7 @@ function weatherHandler(req, res) {
     let weatherUrl = `https://api.weatherbit.io/v2.0/forecast/daily?city=${getWeather}&key=${key}`;
     
     
+    
         axios
             .get(weatherUrl)
             .then(result => {
